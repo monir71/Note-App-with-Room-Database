@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        app:cardElevation="7sp"
+        app:cardCornerRadius="20sp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:background="#127E89"
+                android:layout_marginBottom="15sp">
+
+                <ImageView
+                    android:id="@+id/imgEdit"
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:src="@drawable/svg_edit"
+                    android:contentDescription="edit"
+                    android:layout_marginEnd="10sp"
+                    app:tint="#FFF"/>
+
+                <ImageView
+                    android:id="@+id/imgDelete"
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:src="@drawable/baseline_delete_forever_24"
+                    android:contentDescription="delete"
+                    app:tint="#FFF"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewTitleNoteLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginBottom="5sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textViewDescNoteLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

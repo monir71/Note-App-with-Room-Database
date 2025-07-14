@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Notes App using Room Library</string>
+    <string name="empty_notes">Empty Notes</string>
+    <string name="nothing_found">Nothing Found</string>
+    <string name="btn_create">Create New Note</string>
+    <string name="create_new_note_fab">Create New Notes</string>
+    <string name="insert_notes">Insert Notes</string>
+    <string name="note_title">Title</string>
+    <string name="note_description">Description</string>
+    <string name="add_note">Add</string>
+</resources>
